@@ -25,7 +25,7 @@ function App() {
           <p className = "conceptTitle">1. Onlinetest</p>
         </div>
         <div className="concept">
-        <img src='./images/escapeRoom.png' className="circle"></img>
+        <img src='/images/escapeRoom.png' className="circle"></img>
           <p className = "conceptTitle">2. Escape room</p>
         </div>        <div className="concept">
         <img src='./images/interview.png' className="circle"></img>

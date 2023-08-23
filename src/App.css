@@ -4,25 +4,25 @@
 
 @font-face {
   font-family: poppins;
-  src: url(./fonts/Poppins/Poppins-Medium.ttf);
+  src: url(../public/fonts/Poppins/Poppins-Medium.ttf);
 }
 
 @font-face {
   font-family: poppins;
-  src: url(./fonts/Poppins/Poppins-SemiBold.ttf);
+  src: url(../public/fonts/Poppins/Poppins-SemiBold.ttf);
   font-weight: 600;
 }
 
 
 @font-face {
   font-family: inter;
-  src: url(./fonts/Inter/Inter-Medium.ttf);
+  src: url(../public/fonts/Inter/Inter-Medium.ttf);
   font-weight: 500;
 }
 
 @font-face {
   font-family: inter;
-  src: url(./fonts/Inter/Inter-regular.ttf);
+  src: url(../public/fonts/Inter/Inter-regular.ttf);
   font-weight: 400;
 }
 
