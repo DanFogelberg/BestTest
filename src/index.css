@@ -23,13 +23,17 @@ body {
   min-height: 100vh;
 }
 
+
+
 h1 {
   text-align: center;
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 32px;
+  font-family: poppins;
 }
 
 .banner {
+font-family: poppins;
+
  background-color: #F9F3F1;
  color: black;
  height: 200px;
@@ -44,13 +48,16 @@ h1 {
 .bannerName{
   position: absolute;
   left: 10px;
+  font-size: 32px;
+  font-weight: 600;
   
 }
 
 .nav{
+  font-size: 22px;
+
   display: flex;
   margin: 0;
-  /* text-align: center; */
   padding: 0px;
   justify-content: center;
   width: 50%;
@@ -58,10 +65,12 @@ h1 {
 }
 
 .navItem{
-  text-decoration: underline;
+
   padding: 5%;
   width: auto;
 }
+
+
 
 .navItem:hover{
   color: blue;
@@ -69,7 +78,7 @@ h1 {
 }
 
 .navSelected{
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 .overview{
@@ -100,9 +109,9 @@ h1 {
   text-align: center;
 }
 
-.infoBlock > p{
+/* .infoBlock > p{
 
-}
+} */
 
 
 @media (prefers-color-scheme: light) {
