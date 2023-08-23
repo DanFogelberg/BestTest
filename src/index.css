@@ -85,6 +85,9 @@ font-family: poppins;
   display: flex;
   justify-content: space-around;
 
+  font-family:inter;
+  font-weight: 500;
+
 }
 
 .circle {
@@ -104,6 +107,7 @@ font-family: poppins;
 
 .infoBlock
 {
+  font-family:inter;
   margin:auto;
   width: 70%;
   text-align: center;
