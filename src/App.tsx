@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div className = "banner">
-        <p className = "bannerName">"Namn!"</p>
+        <p className = "bannerName">Team666</p>
         <div className = "nav">
-          <a className = "navItem navSelected">Hej</a>
-          <a className = "navItem">About us</a>
+          <a className = "navItem navSelected">Koncept</a>
+          <a className = "navItem">Om oss</a>
         </div>
 
       </div>
@@ -21,14 +21,14 @@ function App() {
 
       <div className = "overview">
         <div className="concept">
-          <p className="circle"></p>
+          <img src='./images/onlineTest.png' className="circle"></img>
           <p className = "conceptTitle">1. Onlinetest</p>
         </div>
         <div className="concept">
-          <p className="circle"></p>
+        <img src='./images/escapeRoom.png' className="circle"></img>
           <p className = "conceptTitle">2. Escape room</p>
         </div>        <div className="concept">
-          <p className="circle"></p>
+        <img src='./images/interview.png' className="circle"></img>
           <p className = "conceptTitle">3. Intervju</p>
         </div>
 
