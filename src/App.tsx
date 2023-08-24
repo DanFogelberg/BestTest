@@ -3,6 +3,8 @@ import { useState } from 'react'
 //import viteLogo from '/vite.svg' Kept to remember how this is done
 import './App.css'
 
+
+
 function App() {
   const [page, setPage] = useState("index");
 
@@ -57,12 +59,46 @@ I det andra momentet så skall de sökande placera ut fem segment av kod i rätt
 
       <div className = "infoBlock">
       <h2>Intervju</h2>
-      <p>EIntervjun har som syfte att följa upp på de tidigare testerna för att utvärdera hur den sökande gick tillväga för att lösa problemen som de mötte, samt gå igenom formuläret som den sökande fyllt i efter att ha klarat escape room:et. Detta formulär består av frågor där den sökande får beskriva sin roll i gruppmomentet i escape room:et.
+      <p>Intervjun har som syfte att följa upp på de tidigare testerna för att utvärdera hur den sökande gick tillväga för att lösa problemen som de mötte, samt gå igenom formuläret som den sökande fyllt i efter att ha klarat escape room:et. Detta formulär består av frågor där den sökande får beskriva sin roll i gruppmomentet i escape room:et.
       <br></br>
       <br></br>
       Den har också som syfte att utvärdera slutgiltig lämplighet för studierna.
       intervjun genomförs av programansvarig lärare samt en person till, helst branschmedlem, men det viktigaste är att det är en utomstående för att motverka partiskhet.</p>
       </div>
+
+      <div className = "infoBlock">
+      <h2>Exempel från escape room</h2>
+      <p> Sju personer står i kö. Alla har olika färger på sina tröjor, gruppens uppgift är att lista ut i vilken ordning de står. Fem stycken ledtrådar delas ut bland deltagarna, är det färre än fem får en deltagare fler än en ledtråd. På bordet finns det sju olika pappers ark med olika färger. På arken står det olika siffror och tecken: 
+      <br></br>
+      <br></br>
+      Turkos = 1
+      Orange = 4
+      Blå = 0
+      Röd = 5
+      Gult = -
+      Grön = 6
+      Brun = 8
+      <br></br>
+      <br></br>
+      Svaret blir: 1405-68 = 1337
+      <br></br>
+      <br></br>
+      Turkos stod längre fram än Grön, men längre bak än Orange.
+      <br></br>
+      <br></br>
+      Röd står längre fram än Orange.
+      <br></br>
+      <br></br>
+      Blå står längre fram än Grön, men längre bak än Brun.
+      <br></br>
+      <br></br>
+      Brun står längre fram än många, även längre bak än lika många.
+      <br></br>
+      <br></br>
+      Gul står längre bak än Röd,Grön och Blå.
+      </p>
+      </div>
+      
 
 
     </>
