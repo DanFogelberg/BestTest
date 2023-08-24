@@ -17,7 +17,7 @@ function App() {
       <div className = "banner">
         <p className = "bannerName">Team666</p>
         <div className = "nav">
-          <a className = {page==="index" ? "navItem navSelected" : "navItem"} onClick={() => setPage("index")} >Koncept</a>
+        <a className = {page==="index" ? "navItem navSelected" : "navItem"} onClick={() => setPage("index")} >Koncept</a>
           <a className = {page==="aboutUs" ? "navItem navSelected" : "navItem"} onClick={() => setPage("aboutUs")}>Om oss</a>
         </div>
 
