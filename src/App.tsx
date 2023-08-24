@@ -1,23 +1,25 @@
-//import { useState } from 'react'
+import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg' Kept to remember how this is done
 import './App.css'
 
 function App() {
-  //const [count, setCount] = useState(0)
+  const [page, setPage] = useState("index");
+
+
 
   return (
     <>
       <div className = "banner">
         <p className = "bannerName">Team666</p>
         <div className = "nav">
-          <a className = "navItem navSelected">Koncept</a>
-          <a className = "navItem">Om oss</a>
+          <a className = {page==="index" ? "navItem navSelected" : "navItem"} onClick={() => setPage("index")} >Koncept</a>
+          <a className = {page==="aboutUs" ? "navItem navSelected" : "navItem"} onClick={() => setPage("aboutUs")}>Om oss</a>
         </div>
 
       </div>
 
-      <h1>Urvalsprov för webbutvecklare</h1>
+    {page==="index" ? <h1>Urvalsprov för webbutvecklare</h1> : <h1>About us</h1>}     
 
       <div className = "overview">
         <div className="concept">
