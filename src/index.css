@@ -141,7 +141,7 @@ font-family: poppins;
 .infoBlock > p{
   margin-top: 12px;
   margin-bottom: 0px;
-  text-align: left;
+  /* text-align: left; */
 
 }
 
