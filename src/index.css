@@ -144,6 +144,17 @@ font-family: poppins;
 
 }
 
+.aboutUsInfoBlock
+{
+  padding-top: 20px;
+  font-family:inter;
+  margin:auto;
+  width: 48%;
+  text-align: center;
+  margin-bottom: 75px;
+
+}
+
 
 
 .infoBlock > h2{
