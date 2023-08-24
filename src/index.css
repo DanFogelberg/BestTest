@@ -15,6 +15,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+p{
+  font-size: 18px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -32,9 +36,14 @@ body {
 
 h1 {
   margin-top: 93px;
+  margin-bottom: 39px;
   text-align: center;
   font-size: 32px;
   font-family: poppins;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 .banner {
@@ -103,8 +112,8 @@ font-family: poppins;
 }
 
 .circle {
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
   
   border-radius: 50%;
   display: inline-block;
@@ -115,7 +124,7 @@ font-family: poppins;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px;
+  width: 125px;
 }
 
 .conceptTitle{
@@ -134,6 +143,9 @@ font-family: poppins;
   margin-bottom: 75px;
 
 }
+
+
+
 .infoBlock > h2{
   margin-bottom: 0px;
   
@@ -142,6 +154,40 @@ font-family: poppins;
   margin-top: 12px;
   margin-bottom: 0px;
   /* text-align: left; */
+
+}
+
+
+.usInfo{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+
+  font-family:inter;
+  font-weight: 500;
+
+  margin-left: 16%;
+  margin-right: 16%;
+
+  padding-top: 20px;
+  margin-bottom: 73px;
+
+  
+
+}
+
+.person{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 125px;
+}
+
+.person > p{
+  width: 200%;
+  text-align: center;
+  white-space: pre-line;
+  margin-top: 10px;
 
 }
 
