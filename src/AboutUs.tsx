@@ -2,7 +2,7 @@ export default function AboutUs() {
     return <>
         <h1>Om oss</h1>
         <div className = "aboutUsInfoBlock">
-        <p>Ett onlinetest med frågor på en grund- till medelnivå som har i syfte att dels ge de sökande ett första smakprov på vad programmet kommer att innehålla, och också för att sålla bort slentriansökande som inte är så intresserade egentligen.</p>
+        <p>Vi är fem personer som läser på yrgo. En som läser webbutveckling, två som läser Game Programmer och två som läser UX design.</p>
         </div>
 
         <div className = "usInfo">

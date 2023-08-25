@@ -53,7 +53,7 @@ font-family: poppins;
 
  background-color: #F9F3F1;
  color: black;
- height: 144px;
+ height: 148px;
  width: 100vw;
 
 
@@ -92,7 +92,7 @@ font-family: poppins;
 
 
 .navItem:hover{
-  color: blue;
+  color:  #494949;
 
 }
 
